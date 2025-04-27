@@ -1,0 +1,113 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Pacifico:regular);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   
+
+body{
+    color: #f8f9fa;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    z-index: 2;
+    padding: 10px 20px 0px 20px;
+}
+nav h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #f8f9fa;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+ul li{
+    margin: 0 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: #f8f9fa;
+
+}
+
+#part_1 {
+    position: relative;
+    height: 80vh;
+    background-image: url(https://images.pexels.com/photos/317377/pexels-photo-317377.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #f8f9fa !important;
+}
+
+#part_1::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(22, 43, 46, 0.95); /* #162B2E color with 50% opacity */
+    z-index: 1;
+    color: #f8f9fa !important;
+}
+
+button{
+    background-color: #007E68;
+    border: none;
+    color: #f8f9fa;
+    border-radius: 50px !important;
+    padding: 5px 10px;
+}
+
+.start{
+    z-index: 2;
+    position: absolute;
+}
+
+/* Portfolio Section */
+.portfolio-section {
+    background-color: #f8f9fa;
+  }
+  
+  .portfolio-section h2 {
+    font-weight: 600;
+    color: #333;
+  }
+  
+  /* Logo Section */
+  .logo-section {
+    background-color: #3f7c65;
+  }
+  
+  .logo-img {
+    max-width: 150px;
+    height: auto;
+    margin: 20px;
+  }
+  
+  /* Footer */
+  .footer-section {
+    background-color: #0c1a1a;
+  }
+  
+  .social-icons i {
+    font-size: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+  }
+  
+  /* Responsive tweaks */
+  @media (max-width: 768px) {
+    .logo-img {
+      max-width: 100px;
+    }
+  }
