@@ -723,6 +723,13 @@ about-services {
     width:85%;
     animation: responsive 1.3s ease;
 }
+
+.logo-img{
+    max-width: 150px;
+    height: auto;
+    padding: auto;
+    align-items: center;
+}
 /*---------animating the bars--------*/
 @keyframes move-right{
   0%{
