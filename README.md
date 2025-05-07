@@ -32,4 +32,4 @@ This project was developed by the following team members:
 - **Hellen Diana Njeri**
 - **Shem Ndaro Ngugi**
 - **David Arwa**
-- **Mkenani**
+- **Mphatso kenani**
