@@ -16,7 +16,6 @@ This project is a responsive portfolio website designed to showcase the skills, 
 
 - **HTML5**: For the structure of the website.
 - **CSS3**: For styling and layout.
-- **Font Awesome**: For icons.
 - **Bootstrap Icons**: For additional icons.
 
 
