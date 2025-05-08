@@ -1,0 +1,59 @@
+/* Responsive styles for portfolio grid */
+@media (max-width: 992px) {
+    .portfolio-items {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .portfolio-items {
+        grid-template-columns: 1fr;
+    }
+  }
+  
+  /* ===== Responsive Adjustments ===== */
+@media (max-width: 768px) {
+    .services-container {
+      grid-template-columns: 1fr;
+    }
+    
+    .stats-container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .stats-container {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+    @media (max-width: 768px) {
+      .logo-img {
+        max-width: 100px;
+      }
+    }
+
+/*----------RESPONSIVE CSS FOR SERVICE SECTION----------*/
+@media (max-width: 976px) {
+
+    .skills{
+        flex-direction:column;
+        padding: 48px 38px;
+       }
+       .skills-image,.skills-content{
+        width:100%;
+       }
+}
+@media (max-width: 768px) {
+    .logo-img {
+        max-width: 100px;
+    }
+}
+@media screen and (max-width:640px) {
+    .service-content {
+        margin: 0 25px;
+
+    }    
+    
+}
